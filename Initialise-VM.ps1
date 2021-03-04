@@ -21,4 +21,4 @@ Set-Culture en-GB # This one works!
 #    $Volume = Format-Volume -Partition $Partition -FileSystem NTFS -NewFileSystemLabel "DATA-$LUN" -Confirm:$false
 #}
 
-Install-Module cSecurityOptions -Confirm:$false -Force
+#Install-Module cSecurityOptions -Confirm:$false -Force
