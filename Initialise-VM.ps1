@@ -21,4 +21,3 @@ Set-Culture en-GB # This one works!
 #    $Volume = Format-Volume -Partition $Partition -FileSystem NTFS -NewFileSystemLabel "DATA-$LUN" -Confirm:$false
 #}
 Expand-Archive -Path C:\Packages\Plugins\Microsoft.Compute.CustomScriptExtension\1.10.9\Downloads\0\cSecurityOptions.zip -DestinationPath "C:\Program Files\WindowsPowerShell\Modules\cSecurityOptions\"
-#Install-Module cSecurityOptions -Confirm:$false -Force
