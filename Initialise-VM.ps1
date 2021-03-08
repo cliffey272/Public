@@ -21,5 +21,4 @@ Set-Culture en-GB # This one works!
 #    $Volume = Format-Volume -Partition $Partition -FileSystem NTFS -NewFileSystemLabel "DATA-$LUN" -Confirm:$false
 #}
 Expand-Archive -Path C:\Packages\Plugins\Microsoft.Compute.CustomScriptExtension\1.10.9\Downloads\0\cSecurityOptions.zip -DestinationPath "C:\Program Files\WindowsPowerShell\Modules\cSecurityOptions\"
-#cd C:\Packages\Plugins\Microsoft.Compute.CustomScriptExtension\1.10.9\Downloads\0\
-#.\ndp48-x86-x64-allos-enu.exe /q /norestart -Wait
+
