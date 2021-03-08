@@ -22,4 +22,6 @@ Set-Culture en-GB # This one works!
 #}
 Expand-Archive -Path C:\Packages\Plugins\Microsoft.Compute.CustomScriptExtension\1.10.9\Downloads\0\cSecurityOptions.zip -DestinationPath "C:\Program Files\WindowsPowerShell\Modules\cSecurityOptions\"
 cd C:\Packages\Plugins\Microsoft.Compute.CustomScriptExtension\1.10.9\Downloads\0\
-.\ndp48-x86-x64-allos-enu.exe /q /norestart
+.\ndp48-x86-x64-allos-enu.exe /q
+
+Start-Sleep 120
