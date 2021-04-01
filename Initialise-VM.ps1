@@ -20,5 +20,5 @@ Set-Culture en-GB # This one works!
 #    $Partition = New-Partition -DiskNumber $RawDisk.Number -UseMaximumSize -AssignDriveLetter
 #    $Volume = Format-Volume -Partition $Partition -FileSystem NTFS -NewFileSystemLabel "DATA-$LUN" -Confirm:$false
 #}
-Expand-Archive cSecurityOptions.zip -DestinationPath "C:\Program Files\WindowsPowerShell\Modules\cSecurityOptions\"
+Expand-Archive C:\Packages\Plugins\Microsoft.Compute.CustomScriptExtension\*\Downloads\0\cSecurityOptions.zip -DestinationPath "C:\Program Files\WindowsPowerShell\Modules\cSecurityOptions\"
 #C:\Packages\Plugins\Microsoft.Compute.CustomScriptExtension\1.10.9\Downloads\0\
